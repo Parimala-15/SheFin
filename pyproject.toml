@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wealthwise"
+version = "0.1.0"
+description = "Financial app"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.46.0",
+    "pandas>=2.3.0",
+    "plotly>=6.1.2",
+    "google-generativeai>=0.8.5",
+    "requests>=2.32.4",
+    "psycopg2-binary>=2.9.10",
+    "sift-stack-py>=0.7.0",
+    "trafilatura>=2.0.0",
+]
+
+[tool.setuptools]
+py-modules = ["utils", "ai_services", "gemini_ai", "database_config", "database_local", "translations", "financial_calculator", "government_schemes", "mood_tracker", "ai_fallback", "ai_realtime"]
+
