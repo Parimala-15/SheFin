@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# Logs and debug
+*.log
+
+# Virtual environments
+venv/
+env/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode/IDE settings (optional)
+.vscode/
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# PEP 582 (Python local packages)
+__pypackages__/
